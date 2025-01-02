@@ -162,7 +162,7 @@ class DirectionalCountryListTile extends StatelessWidget {
         alignment: AlignmentDirectional.centerStart,
         child: Text(
           '${country.dialCode ?? ''}',
-          textDirection: TextDirection.ltr,
+          // textDirection: TextDirection.ltr,
           textAlign: TextAlign.start,
         ),
       ),
